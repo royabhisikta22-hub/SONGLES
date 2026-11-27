@@ -56,7 +56,7 @@
 
     <!-- About photo: replace the file "About Us.png" in the repo (keep the same name) -->
     <div class="about-photos">
-      <img class="photo-wide" style="aspect-ratio: 4 / 3;" src="About%20Us.png" alt="Singers at a Songles workshop">
+      <img class="photo-wide" style="aspect-ratio: auto; height: auto; object-fit: contain;" src="About%20Us.png" alt="Singers at a Songles workshop">
     </div>
 
     <div class="about-text">
@@ -112,33 +112,17 @@
 
 
 <!-- ================= 4. VIDEOS ================= -->
-<!-- Each card is a link. Change the href="..." to the Instagram post/reel you want,
-     and change the text inside <span class="video-url"> to match. -->
+<!-- To change the Instagram link: edit the href="..." below. To change the button words: edit the text next to the icon. -->
 <section class="section videos" id="videos">
   <div class="container">
     <h2 class="section-title">Videos</h2>
     <p class="section-sub">Experience Songles in action through harmony, community and song.</p>
 
-    <div class="video-grid">
-
-      <a class="video-card" href="https://www.instagram.com/p/DgNbwcLKeGf/" target="_blank" rel="noopener">
-        <span class="icon-circle">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg>
-        </span>
-        <span class="video-url">https://www.instagram.com/p/DgNbwcLKeGf/</span>
-        <span class="video-handle">@singwithsongles</span>
+    <div style="text-align: center; margin-top: 44px;">
+      <a class="btn btn-orange" style="display: inline-flex; align-items: center; gap: 12px;" href="https://www.instagram.com/singwithsongles" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg>
+        Watch our videos on Instagram
       </a>
-
-      <a class="video-card" href="https://www.instagram.com/p/DgNbwcLKeGf/" target="_blank" rel="noopener">
-        <span class="icon-circle">
-          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></svg>
-        </span>
-        <span class="video-url">https://www.instagram.com/p/DgNbwcLKeGf/</span>
-        <span class="video-handle">@singwithsongles</span>
-      </a>
-
-      <!-- Want more videos? Copy one whole <a class="video-card"> ... </a> block and paste it here. -->
-
     </div>
   </div>
 </section>
@@ -155,7 +139,7 @@
 
       <figure class="quote-card">
         <span class="quote-mark">"</span>
-        <blockquote>Supercalifragilisticexpialidocious!</blockquote>
+        <blockquote style="overflow-wrap: anywhere;">Super&shy;cali&shy;fragi&shy;listic&shy;expi&shy;ali&shy;docious!</blockquote>
         <figcaption>
           <strong>Tanica, poet</strong>
           <span>First-time attendee</span>
