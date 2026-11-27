@@ -9,6 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;0,700;1,400&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* HERO PHOTO: shown from the top; lighter dark layer so the photo's colours show */
+    .hero {
+      background:
+        linear-gradient(rgba(0,0,0,.5) 0%, rgba(0,0,0,.1) 22%, rgba(0,0,0,.15) 60%, rgba(0,0,0,.35) 100%),
+        var(--hero-image) center top / cover no-repeat,
+        linear-gradient(160deg, #e8732a 0%, #8a4a2a 45%, #1c1612 100%);
+    }
+    .hero-tagline { max-width: 1000px; text-wrap: balance; line-height: 1.5; }
+  </style>
 </head>
 <body>
 
@@ -77,7 +87,7 @@
       <p>
         Why harmony singing?<br>
         Harmony singing has a unique way of bringing people together.<br>
-        When individual voices become one, something profound happens. The music carries a new energy, and the people singing it experience a shared resonance that reaches beyond the song itself.<br>
+        When individual voices become one, something changes—not just in the music, but in the people singing it.<br>
         That shared joy and collective uplift are at the heart of Songles.
       </p>
     </div>
